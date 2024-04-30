@@ -1,0 +1,139 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+nav{
+    background-color: #1E202B;
+}
+
+nav .container ul li a{
+background-color: transparent;
+padding: 5px 25px;
+cursor: pointer;
+border: 2px solid #1E202B;
+border-radius: 24px;
+transition: all 400ms;
+color: white;
+text-decoration: none;
+}
+
+nav .container ul li:hover a{
+ color: rgb(0, 154, 216);
+ border: 2px solid rgb(0, 154, 216);
+}
+
+section{
+    background-color: #1E202B;
+    background-image: url("../images/city.png");
+background-repeat: no-repeat;
+}
+
+section .search , footer .search{
+    background-color: #1E202B;
+    border-radius: 24px;
+display: flex;
+justify-content: space-between;
+padding: 5px;
+
+}
+
+section .search * , footer .search *{
+padding: 10px 25px;
+}
+
+section .search input , footer .search input{
+    border: none;
+border-radius: 24px;
+background-color: #1E202B;
+color: white;
+}
+
+section .search input:focus , footer .search input:focus{
+border: none !important;
+}
+
+section .search input::placeholder , footer .search input::placeholder{
+color: gray
+}
+
+section .search button , footer .search button{
+padding: 0 40px;
+background-color: rgb(0, 154, 216);
+border-radius: 24px;
+color: white;
+border: none;
+}
+
+section .info .bg1{
+    background-color: #2D303D;
+}
+
+section .info .bg2{
+background-color: #323544;
+}
+
+section .info .bg3{
+background-color:#222530 ;
+}
+
+section .info .bg4{
+background-color: #262936;
+}
+
+
+.w-30{
+    width: 30%;
+}
+.color-main{
+    color: #BFC1C8;
+}
+.color-secondary{
+color : rgb(0, 154, 216);
+}
+section .info .bg2 img{
+width: 10%;
+}
+.today-deg{
+    font-size: 90px;
+}
+
+.w-40{
+    width: 40%;
+}
+
+footer{
+    background-color: #262936;
+}
+
+.social-media li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms;
+    margin: 10px;
+}
+
+.social-media li a i{
+    color: #009AD8 ;
+
+}
+
+.social-media li:hover a i{
+    color: white;
+
+}
+
+.social-media li:hover{
+    background-color: #009AD8;
+}
